@@ -6,7 +6,7 @@ import LatestBlocks from "../Latest-Blocks/index";
 import LatestTxs from "../Latest-Txs/index";
 
 // import api key from the env variable
-const apiKey = process.env.REACT_APP_ETHERSCAN_API_KEY;
+const apiKey = process.env.ETHERSCAN_API_KEY;
 
 const endpoint = `https://api.etherscan.io/api`;
 

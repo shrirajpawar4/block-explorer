@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Table, Label } from "semantic-ui-react";
 import axios from "axios";
 
-const apiKey = process.env.REACT_APP_ETHERSCAN_API_KEY;
+const apiKey = process.env.ETHERSCAN_API_KEY;
 const endpoint = `https://api.etherscan.io/api`;
 
 class LatestTxs extends Component {
